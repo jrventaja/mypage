@@ -1,0 +1,25 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  color: rgb(53, 53, 53);
+  align-items: center;
+}
+
+
+.newspaper {
+  column-count: 2;
+  column-gap: 30px; /* Space between columns */
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  width: 60%;
+}
+
+.p {
+  break-inside: avoid; /* Prevents paragraph from breaking between columns */
+  margin-bottom: 1em; /* Space between paragraphs */
+}
+
+.my-picture {
+  display: flex;
+  flex-direction: column;
+}

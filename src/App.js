@@ -1,25 +1,23 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
-import Header from './components/Header';
-import Sidebar from './components/Sidebar';
-import Home from './components/Home';
-import About from './components/About';
+import Header from './components/header/Header';
+import Sidebar from './components/sidebar/Sidebar';
+import Home from './components/home/Home';
+import About from './components/about/About';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
-  const [activeComponent, setActiveComponent] = useState('Home');
-
-  const handleOptionClick = (option) => {
-    setActiveComponent(option);
-  };
 
   return (
     <div className="App">
       <Header />
-      <div className="main-layout">
-        <Sidebar onOptionClick={handleOptionClick} />
-        {activeComponent === 'Home' && <Home />}
-        {activeComponent === 'About' && <About />}
-      </div>
+      <BrowserRouter>
+        <Sidebar />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/whoami" element={<About />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
