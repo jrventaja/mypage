@@ -8,15 +8,15 @@
 
 .newspaper {
   column-count: 2;
-  column-gap: 30px; /* Space between columns */
+  column-gap: 30px;
   font-family: Arial, sans-serif;
   line-height: 1.6;
   width: 60%;
 }
 
 .p {
-  break-inside: avoid; /* Prevents paragraph from breaking between columns */
-  margin-bottom: 1em; /* Space between paragraphs */
+  break-inside: avoid;
+  margin-bottom: 1em;
 }
 
 .my-picture {

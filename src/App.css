@@ -33,6 +33,10 @@
   }
 }
 
+.oranje {
+  color: #d3884b;
+}
+
 .App {
   font-family: monaco, Consolas, "Lucida Console", monospace;
 }

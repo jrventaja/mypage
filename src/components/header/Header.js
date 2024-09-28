@@ -16,7 +16,7 @@ const Header = () => {
           <img src={githubLogo} alt="Github" className="github" />
         </a>
         <h1>/</h1>
-        <h1 className="name">José Ventaja</h1>
+        <h1 className="oranje">José Ventaja</h1>
         <img src={profilePicture} alt="Profile" className="profile-picture" />
       </div>
     </header>
