@@ -8,6 +8,7 @@
     align-items: center;
     display: flex;
     padding: 1em;
+    text-indent: 20px;
 }
 
 .newspaper {
