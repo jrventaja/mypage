@@ -9,6 +9,10 @@
   z-index: 1000;
   height: 80px;
   flex-direction: row-reverse;
+  position: fixed;
+  top: 0; /* Position it at the top of the viewport */
+  left: 0; /* Align it to the left */
+  width: 100%; /* Make it full width */
 }
 
 .profile-picture {

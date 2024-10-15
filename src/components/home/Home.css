@@ -1,4 +1,17 @@
 .home {
   margin-left: 250px;
   color: rgb(53, 53, 53);
+  display: flex;
+  margin-top: 80px;
+  column-count: 1;
+}
+
+@media (max-width: 600px) {
+  .newspaper {
+    column-count: 1;
+  }
+
+  .home {
+    margin-left: 80px;
+  }
 }

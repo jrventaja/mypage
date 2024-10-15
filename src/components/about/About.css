@@ -3,15 +3,8 @@
   flex-direction: column;
   color: rgb(53, 53, 53);
   align-items: center;
-}
-
-
-.newspaper {
-  column-count: 2;
-  column-gap: 30px;
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  width: 60%;
+  margin-top: 80px;
+  margin-left: 250px;
 }
 
 .p {
@@ -27,5 +20,9 @@
 @media (max-width: 600px) {
   .newspaper {
     column-count: 1;
+  }
+
+  .about {
+    margin-left: 80px;
   }
 }

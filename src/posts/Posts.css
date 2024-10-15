@@ -1,0 +1,15 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.posts {
+    align-items: center;
+    display: flex;
+    padding: 1em;
+}
+
+.newspaper {
+    width: 80%;
+}

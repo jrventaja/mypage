@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-
+import './Posts.css';
 
 const Posts = () => {
     const [posts, setPosts] = useState([]);
@@ -17,10 +17,10 @@ const Posts = () => {
             });
     }, []);
     return (
-        <div>
+        <div className='posts'>
             {Array.isArray(posts) && posts.length > 0 ? (
                 posts.map(post => (
-                    <div key={post.datetime}>
+                    <div key={post.datetime} className='post'>
                          <p>{post.datetime}</p>
                         <h2>{post.title}</h2>
                         <div dangerouslySetInnerHTML={{ __html: post.content }} />

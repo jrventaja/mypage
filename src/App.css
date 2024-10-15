@@ -68,7 +68,6 @@
 .newspaper {
   column-count: 2;
   column-gap: 30px;
-  font-family: Arial, sans-serif;
   line-height: 1.6;
-  width: 60%;
+  text-indent: 20px;
 }

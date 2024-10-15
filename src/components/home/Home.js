@@ -4,9 +4,9 @@ import Posts from '../../posts/Posts';
 
 const Home = () => {
   return (
-    <main className="home">
+    <div className="home">
       <Posts />
-    </main>
+    </div>
   );
 };
 
