@@ -5,8 +5,8 @@ import myPicture from "../../resources/my-picture.jpg"
 const About = () => {
   return (
     <div className="about">
-      <h1 className="oranje">&gt; whoami<span className="blink">_</span></h1>
-      <h1>Who am I?</h1>
+      <h1>&gt; whoami<span className="blink">_</span></h1>
+      <h1 className="oranje">Who am I?</h1>
       <div className="newspaper">
         <div className="my-picture">
           <img src={myPicture} alt="Myself working" />

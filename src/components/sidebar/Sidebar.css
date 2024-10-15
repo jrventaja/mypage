@@ -5,6 +5,7 @@
   background-color: #f0f0f0;
 }
 
+
 .sidebar ul {
   list-style-type: none;
   padding: 0;
@@ -47,4 +48,25 @@
 .sidebar li:hover {
   background-color: lightgray;
   cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .sidebar {
+    width: 80px;
+    overflow: hidden;
+  }
+
+  .sidebar:hover {
+    width: 200px;
+    transition: width 0.3s;
+  }
+
+  .sidebar li {
+    font-size: 8px;
+    transition: font-size 0.3s;
+  }
+
+  .sidebar li:hover {
+    font-size: 20px;
+  }
 }

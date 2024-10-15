@@ -1,8 +1,4 @@
 .home {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 20px;
+  margin-left: 250px;
   color: rgb(53, 53, 53);
 }
